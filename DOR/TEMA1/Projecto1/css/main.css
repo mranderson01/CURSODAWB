@@ -1,0 +1,18 @@
+ul{
+    
+    color: white;
+    display: flex;
+    
+}
+li{
+    background-color: black;
+    list-style-type: none;
+    margin-right: 2px;
+    height: 25px;
+    width: 150px;
+    font-size: 25px;
+}
+
+li>a:visited{
+    color: white;
+}
