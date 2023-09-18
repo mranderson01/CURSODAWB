@@ -1,0 +1,3 @@
+https://es.zir-online.com/portal/task/create
+https://pokeapi.co/docs/v2#pokemon
+https://ed.team/blog/las-mejores-apis-publicas-para-practicar

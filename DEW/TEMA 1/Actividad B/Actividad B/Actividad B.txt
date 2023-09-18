@@ -1,0 +1,60 @@
+==================================================
+== INSTRUCCIONES DE INSTALACIÓN DE PLANLAGA 1.2 ==   
+==================================================
+
+Al ejecutar el programa de instalación se instala sobre la versión anterior, si está instalada en el ordenador, migrando la base de datos a la nueva versión automáticamente, convirtiendo todos los datos y evitando así que se tenga que volver a introducir la información.
+
+En el caso de que en un equipo no haya un PlanLaGa anterior instalado, se instala la nueva versión automáticamente.
+
+En el CD se encuentran tres directorios: WINDOWS, MAC-OS, LINUX. En cada uno de ellos se encuentran los ficheros necesarios para realizar la instalación de PlanLaga en el sistema operativo correspondiente.
+
+Para que la aplicación funcione correctamente es necesario tener instalada la máquina virtual de JAVA 1.5 o posterior. Los equipos recientes ya tienen instalada esta máquina y no es necesario realizar esta instalación. En caso de necesitar instalarla se puede descargar desde la siguiente dirección de Internet:
+
+http://www.java.com/es/download
+
+En el caso de no saber con seguridad si el equipo tiene o no la maquina virtual de JAVA 1.5 o posterior instalada, se debe proceder primero a intalar PlanLaGa y si no funciona, da un mensaje de error al ejecutarla, entonces instalar la máquina virtual descargándola de la URL mencionada.
+
+
+===============================
+== SISTEMA OPERATIVO WINDOWS ==
+===============================
+
+Copiar el fichero denominado "Instalacion_PlanLaGa.exe" que se encuentra en el CD en el directorio WINDOWS en el disco duro local del ordenador. 
+Ejecutar el fichero "Instalacion_PlanLaGa.exe" y seguir los pasos que indica en la pantalla.
+Tras estos pasos la aplicación queda instalada en el directorio PlanLaGa, en la carpeta Archivos de Programa.
+Para ejecutar la aplicación se debe hacer doble clic en el fichero PlanLaGa.exe que se encuentra en dicho directorio.
+
+
+=============================
+== SISTEMA OPERATIVO MAC-OS==
+=============================
+Copiar el directorio denominado "PlanLaGa", y todo su contenido, que se encuentra en el CD en el directorio MAC_OS en el disco duro local del ordenador. 
+Tras estos pasos la aplicación queda instalada en el directorio PlanLaGa, en la carpeta donde se haya copiado.
+Para ejecutar la aplicación se debe seleccionar la aplicación PlanLaGa que se encuentra en dicho directorio.
+
+
+=============================
+== SISTEMA OPERATIVO LINUX ==
+=============================
+Copiar el directorio denominado "PlanLaGa", y todo su contenido, que se encuentra en el CD en el directorio LINUX en el disco duro local del ordenador.   
+Tras estos pasos la aplicación queda instalada en el directorio PlanLaGa, en la carpeta donde se haya copiado.
+Para ejecutar la aplicación se debe hacer doble clic en el fichero PlanLaGa que se encuentra en dicho directorio.
+
+
+Instalación máquina virtual Java en LINUX:
+--------------------------------------------------------
+En Linux es requisito tener instalada la máquina virtual de JAVA 1.5
+
+Descargar la máquina virtual de la dirección de Internet indicada al principio de estas instrucciones.	
+Copiar el fichero descargado (extensión *.bin) en el directorio /usr/share y ejecutarlo desde un terminal. 
+Desde el terminal del sistema realizar los siguientes pasos:
+Situarse en el directorio /usr/share escribiendo en la línea de comandos cd /usr/share
+Ejecutar el archivo escribiendo en la línea de comandos sudo ./nombre_archivo.bin En este paso se creará una estructura de directorios con los archivos necesarios para ejecutar cualquier aplicación de java. 
+Cambiar el path:
+Cambiar el path cada vez que ejecutemos PlanLaGa: 
+Para ello, se escribe en la línea de comandos: export PATH=/usr/share/dir_maquina_virtual/bin:$PATH
+Cambiar el path definitivamente (opción recomendada):
+Editar el archivo de configuración del bash (.bash_profile, .profile) y modificar el path en él.
+Cambiar en el fichero PATH= "HOME/bin:$PATH" por PATH="HOME/bin:/usr/share/dir_maquina_virtual/bin:$PATH"
+
+
