@@ -72,18 +72,17 @@ Para Donald A. Norman, <strong><em>“el ordenador personal no es muy personal. 
         <th>Planeta</th>
         <th>Densidad</th>
         <th>Volumen</th>
-        <th>Poblaci&oacute;n</th>
+        <th colspan="2">Poblaci&oacute;n</th>
     </tr>
     <tr>
         <td>Marte</td>
         <td>255</td>
         <td>5555</td>
-        <td colspan="2">0</td>
+        <td colspan="2" rowspan="2">0</td>
     </tr>
     <tr>
         <td>Mercurio</td>
-        <td rowspan="2"></td>
-        <td ></td>
+        <td colspan="2">1001</td> 
     </tr>
     <tr>
         <td>Tierra</td>
@@ -92,10 +91,53 @@ Para Donald A. Norman, <strong><em>“el ordenador personal no es muy personal. 
         <td>Demasiada</td>
     </tr>
     <tr>
-        <td rowspan="3">SUMAR TODO</td>
+        <td colspan="3">SUMAR TODO</td>
         <td>KKKKKKK</td>
     </tr>    
 </table>
+<hr>
+
+<p>Observe que hay un selector que al desplegar contiene: <select name="comida1" id="comida1">
+    <option value="lentejas" name="comida1">Lentejas</option>
+    <option value="paella" name="comida1">Paella</option>
+    <option value="ropa vieja" name="comida1">Ropa vieja</option>
+    <option value="ensalada" name="comida1">Ensalada</option>
+</select></p>
+
+<p>Que hay otros, como los botones de selecci&oacute;n: 
+    <label for="lentejas"><input type="radio" id="lentejas">Lentejas</label>
+    <label for="paella"><input type="radio" checked id="paella">Paella</label>
+    <label for="ropaVieja"><input type="radio" id="ropaVieja">Ropa vieja</label>
+    <label for="ensalada"><input type="radio" id="ensalada">Ensalada</label>
+</p>
+
+<p>Y los &uacute;ltimos son casillas de verificaci&oacute;n: 
+    <label for="lentejas3"><input type="checkbox" checked id="lentejas3">Lentejas</label>
+    <label for="paella3"><input type="checkbox"  id="paella3">Paella</label>
+    <label for="ropaVieja3"><input type="checkbox" checked id="ropaVieja3">Ropa vieja</label>
+    <label for="ensalada3"><input type="checkbox" checked id="ensalada3">Ensalada</label>
+</p>
+<hr>
+<p>
+<select name="comida2" id="comida2">
+    <option value="lentejas" name="comida2">Lentejas</option>
+    <option value="paella" name="comida2">Paella</option>
+    <option value="ropa vieja" name="comida2">Ropa vieja</option>
+    <option value="ensalada" name="comida2">Ensalada</option>
+</select>
+
+    <label for="lentejas5"><input type="radio" id="lentejas5">Lentejas</label>
+    <label for="paella5"><input type="radio" id="paella5">Paella</label>
+    <label for="ropaVieja5"><input type="radio" id="ropaVieja5">Ropa vieja</label>
+    <label for="ensalada5"><input type="radio" id="ensalada5">Ensalada</label>
+
+    <label for="">Escribe tu nombre y apellido <input type="text" ></label>
+
+    <label for="lentejas6"><input type="checkbox" id="lentejas6">Lentejas</label>
+    <label for="paella6"><input type="checkbox" id="paella6">Paella</label>
+    <label for="ropaVieja6"><input type="checkbox" id="ropaVieja6">Ropa vieja</label>
+    <label for="ensalada6"><input type="checkbox" id="ensalada6">Ensalada</label>
+</p>
 
 </body>
 </html>
