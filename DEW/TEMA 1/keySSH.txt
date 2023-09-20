@@ -1,0 +1,13 @@
+SHA256:ZXbRIAngex1nv43lYMR80cSioZ4QOpSxqvEGIAAsziA rodrigo18sa@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|=     o+....oo +o|
+|E.   .o.. ...+o +|
+|O    .o. .=.+o+..|
+|.+   .o..=.=.o . |
+|  o . ..So..  + .|
+|   =   .  o  . B |
+|  . o         o o|
+|   .             |
+|                 |
++----[SHA256]-----+
