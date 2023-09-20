@@ -1,0 +1,14 @@
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+table>th,td{
+     
+        border-width: 10px; /* Ancho del borde */
+        border-image: linear-gradient(to right, #ff6600, #00ccff); /* Gradiente lineal */
+        border-image-slice: 1; /* Slices del borde (1 = todo el borde) */
+        border-image-repeat: stretch; /* Estirar para llenar el borde */
+       border:1px solid;
+}
