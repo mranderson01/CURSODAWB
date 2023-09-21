@@ -9,13 +9,54 @@ body{
     flex-direction: column;
     align-items: center;    
 }
- 
-body > header {
-    background-color: #333;
-    color: #fff;
+/*HEADER*/
+body > header {          
     padding: 20px;
     text-align: center; 
 }
+/*HEADER 1 NOTICIAS*/
+.header-span{
+    display: block;
+}
+#noticias{    
+    background-color: rgb(187, 187, 187);
+}
+#noticias>p>span>a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/*HEADER 2 */
+.titulo-up{
+text-align: center;
+}
+.titulo-up>span{
+    position: relative;
+    bottom: 1.2em;  
+}
+#tituloPrincipal>img{
+    position: relative;
+    left: 5em;
+}
+.botones{
+    position: relative;
+    left: 22em;     
+}
+.botones>button:nth-child(1){
+    position: relative;
+    top: 0.2em;
+}
+.botones>button{
+    height: 3em;
+}
+.botones>button:nth-child(1)>img{
+    position: relative;
+    top: 0.2em;
+}
+.botones>button:nth-child(1)>span{
+    position: relative;
+    bottom: 0.2em;
+}
+/*HEADER 3*/
 
 /* Estilos para la lista desordenada (ul) */
 ul {
