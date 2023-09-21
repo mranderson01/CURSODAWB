@@ -39,7 +39,7 @@ text-align: center;
 }
 .botones{
     position: relative;
-    left: 22em;     
+    left: 20em;     
 }
 .botones>button:nth-child(1){
     position: relative;
@@ -57,7 +57,41 @@ text-align: center;
     bottom: 0.2em;
 }
 /*HEADER 3*/
-
+#header3{
+    background-color: red;
+    color: white;
+    height: 3em;        
+}
+#header3>span{
+    padding: 0.5em 0.5em; 
+    position: relative;
+    top: 1em;  
+}
+.tamañoLetraSpan{
+    font-size: 1.3em;  
+} 
+.tamañoLetraSpan>strong{
+    position: relative;
+    bottom: 0.5em;
+}
+.tamañoLetraSpan>strong>a{
+    color: white;
+    text-decoration: none;
+}
+ 
+.tamañoLetraSpan2>a{
+    background-image: linear-gradient(150deg, #d11717 0%, #f32804 100%),
+    linear-gradient(315deg, #ff0000 0%, #d11717 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    position: relative; 
+    padding: 1.2em 0.6em 0.6em 0.1em;
+    padding-left: 16px; 
+    padding-right: 47px;
+}
 /* Estilos para la lista desordenada (ul) */
 ul {
     list-style-type: none;
