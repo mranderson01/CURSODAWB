@@ -1,0 +1,34 @@
+/*GENERAL*/
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+span{
+    display: block;
+}
+
+/*header - primer contenedor*/
+
+header>span:nth-child(1){
+    display: flex;
+    justify-content: center;
+    border: 1px solid red; 
+    float: left;   
+}
+header>span:nth-child(1)>span{
+    width:20%;
+}
+ 
+/*MAIN*/
+/*GENERAL*/
+main{
+    display: flex;    
+}
+
+main>span{
+    border: 1px solid black;    
+}
+
+/*MAIN NO GENERAL*/
