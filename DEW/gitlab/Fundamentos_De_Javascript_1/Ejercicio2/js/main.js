@@ -2,9 +2,9 @@
 // alert(typeof())
 //R: Sirven para saber el tipo de dato es un variable
 
-const cadena = "cadena";
+/*const cadena = "cadena";
 console.log("Ejercicio A")
-console.log(typeof(cadena))
+console.log(typeof(cadena))*/
 
 /**
  * b) Indica el valor que generan las siguientes expresiones y el tipo de datos de los mismos:
@@ -21,7 +21,7 @@ console.log(typeof(cadena))
     k. “Tienes” + 23 + “años”
  */
 
-const a = 2>3+2;
+/*const a = 2>3+2;
 const b = 1 + false +3.5;
 const c = 4 * true + 2;
 const d = 5 / 0;
@@ -45,7 +45,7 @@ console.log(`G: ${g}`)
 console.log(`H: ${h}`)
 console.log(`I: ${i}`)
 console.log(`J: ${j}`)
-console.log(`K: ${k}`) 
+console.log(`K: ${k}`) */
 
 
 //c) Observa el siguiente código y contesta:
@@ -53,7 +53,7 @@ console.log(`K: ${k}`)
 //lo cual es correcto  y al haber ese error no se ejecutar la funcion saludar.
 //Para solucionar esto se pone la variable VAR por fuera de la funcion
 
-console.log("Ejercicio C")
+/*console.log("Ejercicio C")
 var nombre = "Pedro";
 
 function saludar() { 
@@ -61,7 +61,36 @@ function saludar() {
 }
 
 alert("Usuario: " + nombre)
+saludar();*/
+
+//d) [Trate de resolver antes de ejecutar el código, luego puede comprobarlo] ¿Qué mostrará la segunda
+//ventana emergente?
+//R: Sera Juan.
+/*console.log("Ejercicio D")
+
+var nombre = "Juan";
+
+function saludar() { 
+    var nombre = "Pedro";
+    alert("Hola " + nombre);    
+}
+
 saludar();
+alert("Usuario: " + nombre)*/
+
+//e) ¿Qué generan los siguientes códigos?
+
+//a R: 
+var resultado = "1";
+let algo = resultado;
+console.log(typeof(resultado))
+console.log(typeof(algo))
 
 
+var booleano = false;
+var numero = 1 ;
 
+
+//b
+var llueve = false;
+llueve+= " o true?";
