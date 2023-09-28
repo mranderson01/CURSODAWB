@@ -1,0 +1,104 @@
+/* Apartado 1 */
+[id^="card"]{
+    background-color: rgba(90, 74, 119, 0.3);
+}
+
+/* Apartado 2 (dos reglas) */
+/*No se puede usar virguliña para hacer lo mismo que "^=" porque 
+estuve averiguando que es para todos los hermanos sea seguido o anterior.*/
+/* Apartado 3 */
+
+[data-state^="ok"]{
+    background: url(../comprobado.svg) no-repeat left center;  
+}
+[data-state$="fail"]{
+    background: url(../cerrar.svg) no-repeat left center;    
+}
+
+/* Apartado 4 */ 
+input[type="submit"]{
+    background-color: lightskyblue;
+    color: whitesmoke;
+}
+
+input:hover[type="submit"]{
+    background-color: whitesmoke;
+    color: lightskyblue;
+}
+/* Apartado 5 */
+:target{
+    border: 3px solid #00BC8A ;
+}
+[id="card1"]:target{
+    border: 3px solid #00BC8A ;
+}
+[id="card2"]:target{
+    border: 3px solid #fd0d0d ;
+}
+[id="card3"]:target{
+    border: 3px solid #2600ff ;
+}
+
+/* Apartado 6 */
+input:focus:not([type="submit"]) {
+    border: 2px solid blue;
+    background-color: lightyellow;
+}
+
+/* Apartado 7 */
+:disabled{
+    background-color: rgba(0, 188, 138, 0.1);  
+}
+
+/* Apartado 8 */
+input[type="checkbox"]:checked+label{
+    color: #00BC8A;
+}  
+/* Apartado 9 */
+.contact>li:last-child{
+    background-color: rgba(0, 188, 138, 0.3);
+}
+
+/* Apartado 10 */
+.contact>li:nth-child(3){
+    background-color: rgba(0, 188, 138, 0.3);
+}
+
+/* Apartado 11 */
+.contact>li:first-child{
+    background-color: rgba(0, 188, 138, 0.3);
+}
+
+/* Apartado 12 */
+
+/*PAR*/
+.checklist>li:nth-child(even){
+    color:rgba(86, 76, 120, 0.3) 
+}
+
+/*IMPAR*/
+.checklist>li:nth-child(odd){    
+    color:rgba(0, 188, 137, 0.3)
+}
+/* Apartado 13 */
+#one>div>section:first-child:first-line{
+    color:  #00BC8A;
+}
+
+/* Apartado 14 */
+.content>h3::before{ 
+    content:" ` ";    
+}
+.content>h3::after{
+    border: 2px solid #00BC8A;    
+} 
+
+/*{
+    border: 2px solid #00BC8A;
+    box-shadow: none;
+}*/
+
+/* Apartado 15 */
+[id^="card"]:hover {
+    box-shadow: 10px 10px 10px grey;
+}
