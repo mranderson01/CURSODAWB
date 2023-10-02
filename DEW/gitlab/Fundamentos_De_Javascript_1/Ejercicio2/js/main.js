@@ -82,9 +82,9 @@ alert("Usuario: " + nombre)*/
 
 //a R: 
 var resultado = "1";
-let algo = resultado;
+parseInt(resultado);
 console.log(typeof(resultado))
-console.log(typeof(algo))
+console.log(typeof(resultado))
 
 
 var booleano = false;
