@@ -26,6 +26,14 @@ const obtenerNota = (e) =>{
         strong.textContent="Aprobado"
         DOM.mensaje.appendChild(strong);
     }
+    switch (true) {
+        case nota>=0 && nota<5:
+            
+            break;
+    
+        default:
+            break;
+    }
 
 }
 DOM.form1.addEventListener("submit",obtenerNota)
