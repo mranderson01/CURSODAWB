@@ -80,12 +80,20 @@ function saludar() {
 
 //e) ¿Qué generan los siguientes códigos?
 
+<<<<<<< HEAD
 //a R: me devuelve una cadena "true"
 var resultado = true
 resultado.toString()
 console.error("Ejercicio E")
 console.log(typeof(resultado.toString()))
  
+=======
+//a R: 
+var resultado = "1";
+parseInt(resultado);
+console.log(typeof(resultado))
+console.log(typeof(resultado))
+>>>>>>> 5e5482f8ed6b638e6ca4b32fc518c2cea8a362fc
 
 //b R: Devuelve la union de 'false' con la cadena "o true", lo cual sale un tipo string
 var llueve = false;
