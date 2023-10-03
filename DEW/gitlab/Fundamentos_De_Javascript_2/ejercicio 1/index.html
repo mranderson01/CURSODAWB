@@ -16,6 +16,13 @@
             background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(12,12,101,1) 12%, rgba(0,212,255,1) 85%);
             padding-bottom: 5px;
         }
+        h5{
+            margin: 0; 
+            padding: 5px;
+        }
+        #mostrarDatos{
+            background-color: black;
+        }
     </style>
 </head>
 <body>
@@ -25,9 +32,10 @@
             <label for="">
                 <input type="text" id="obtValor">
                 <input type="submit" value="Calcular">
+                <span id="error"></span>
             </label>
-        </form>
-        <div id="mostrarDatos"></div>
+        </form> 
+        <span id="mostrarDatos"></span>
     </div>
     <script src="./main.js"></script>
 </body>
