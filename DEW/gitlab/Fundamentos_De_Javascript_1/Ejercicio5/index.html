@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        #principal{
+            background: rgb(169, 167, 209);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,39,223,1) 35%, rgba(0,212,255,1) 100%);
+            color: blanchedalmond;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <h1>Estación correspondiente al mes</h1>
+        <p>NOTA: algunos meses pertenecen a dos estaciones, a estos se les asigna al que mayor parte del tiempo pertenecen.</p>
+        <form action="" >
+            <label for="">Mes del año</label>
+            <select name="mes" id="seleccionar">
+                <option value="">--Por favor selecciona una opción--</option>
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+            <input type="text" id="temporada">
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
