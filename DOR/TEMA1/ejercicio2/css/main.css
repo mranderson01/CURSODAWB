@@ -21,14 +21,17 @@ header>span:nth-child(1)>span{
     width:20%;
 }
  
-/*MAIN*/
+/*MAIN*/    
 /*GENERAL*/
-main{
-    display: flex;    
-}
-
-main>span{
-    border: 1px solid black;    
-}
-
+ 
 /*MAIN NO GENERAL*/
+main{
+    display: flex;
+    border: 1px dotted red;
+    justify-content: space-between;
+
+}
+main>span{
+    display: block;
+    border: 1px solid black;
+}
