@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <h1>Hoy el usuario: @ViewData["id"] cumple @ViewData["edad"] años</h1>
+
+    int index = 0;
+    while (index <= (int)ViewData["edad"])
+    {
+        <ul>
+            <li><a asp-controller="Saludos" asp-action="Index">Felicidades @ViewData["name"]</a>
+        </ul>
+        index++;
+    }
+}
