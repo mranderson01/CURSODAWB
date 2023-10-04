@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        table{
+            border: 2px solid ;
+            background: rgb(252,138,0);
+            background: linear-gradient(0deg, rgba(252,138,0,1) 0%, rgba(236,255,22,1) 100%);
+            height: 500px;
+            width: 500px;
+        }
+        input{
+            height: 100px;
+            width: 100px;
+            font-size: 2em;
+        }
+        #pantalla{
+            background-color: white;
+            width: 100%;
+        }
+        th{
+            text-align: end;
+            font-size: 3em;
+        }
+        input{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table id="tabla">
+        <tr id="pantalla" >
+            <th colspan="5">0</td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7"></td>
+            <td><input type="button" value="8"></td>
+            <td><input type="button" value="9"></td>
+            <td><input type="button" value="+"></td>
+            <td><input type="button" value="-"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4"></td>
+            <td><input type="button" value="5"></td>
+            <td><input type="button" value="6"></td>
+            <td><input type="button" value="*"></td>
+            <td><input type="button" value="/"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1"></td>
+            <td><input type="button" value="2"></td>
+            <td><input type="button" value="3"></td>
+            <td><input type="button" value="*"></td>
+            <td><input type="button" value="C"></td>
+        </tr>
+        <tr>
+            <td  colspan="3" ><input type="button" value="0"></td>
+             
+            <td><input type="submit" value="=" id="btnEnviar"></td> 
+        </tr>
+    </table>
+    <script src="./main.js"></script>
+</body>
+</html>
