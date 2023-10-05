@@ -40,7 +40,9 @@ const mostrarDivisores =(e)=>{
     listaDivisores.forEach(divisor=>{
         let h5=document.createElement("h5"); 
         h5.innerHTML=`<strong>${divisor} es un divisor</strong>`;
-        DOM.mostrarDatos.appendChild(h5); 
-    })                        
+        DOM.mostrarDatos.appendChild(h5);   
+    })          
+    
+    
 }
 DOM.formulario.addEventListener("click",mostrarDivisores)
