@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: red;
+}
+body{    
+    display: grid;
+    grid-template-areas:"header menuu"
+                        "main main"
+                        "footer footer";
+    grid-template-columns: 75% 25%; 
+
+    
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(0, 195, 255);
+    }
+
+#menu{
+    grid-area:  menuu;
+    background-color: rgb(60, 255, 0);
+}
+
+main{   
+    grid-area:  main;
+    background-color: rgb(7, 122, 156);
+    overflow-y: scroll;
+    padding-left: 5px;
+    padding-right: 5px;          
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.areas{
+    height: 150px;
+    background-color: red;
+}  
+/*
+    Mobile: 360 x 640
+    Mobile: 375 x 667
+    Mobile: 360 x 720
+    iPhone X: 375 x 812
+    Pixel 2: 411 x 731
+    Tablet: 768 x 1024
+    Laptop: 1366 x 768
+    High-res laptop or desktop: 1920 x 1080
+*/
+
+/*Todo: hacer el grid*/
+body>*{
+    border: 1px solid rgb(104, 104, 228); 
+}
+
