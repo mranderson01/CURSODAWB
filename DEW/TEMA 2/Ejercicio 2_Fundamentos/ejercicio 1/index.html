@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <style>
+        body{
+            color: white;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(12,12,101,1) 12%, rgba(0,212,255,1) 85%);
+            padding-bottom: 5px;
+        }
+        h5{
+            margin: 0; 
+            padding: 5px;
+        }
+        #mostrarDatos{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Divisores</h1>
+        <form action="" id="formulario">
+            <label for="">
+                <input type="text" id="obtValor">
+                <input type="submit" value="Calcular">
+                <span id="error"></span>
+            </label>
+        </form> 
+        <span id="mostrarDatos"></span>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
