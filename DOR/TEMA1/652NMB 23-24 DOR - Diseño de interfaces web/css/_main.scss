@@ -14,11 +14,15 @@ body{
 header{
     grid-area: header;
     background-color: rgb(0, 195, 255);
-    }
+    height: 50px;
+    text-align: center;    
+
+}
 
 #menu{
     grid-area:  menuu;
     background-color: rgb(60, 255, 0);
+    text-align: center;
 }
 
 main{   
@@ -26,7 +30,8 @@ main{
     background-color: rgb(7, 122, 156);
     overflow-y: scroll;
     padding-left: 5px;
-    padding-right: 5px;              
+    padding-right: 5px;        
+    padding-bottom: 10px;      
 }
 .areas>h1{
     text-align: center;
@@ -69,6 +74,8 @@ footer{
     color: white;
     text-align: center;
     font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
  
@@ -82,20 +89,89 @@ footer{
     Laptop: 1366 x 768
     High-res laptop or desktop: 1920 x 1080
 */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 500px) {
+    .contenedor{
+        column-gap: 5px;
+    }
+    .card{
+        width: 31%;
+    }
 
-/*Todo: hacer el grid*/
-body>*{
-    border: 1px solid rgb(104, 104, 228); 
+}
+///* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .main{
+        overflow: auto;
+    }
+    .contenedor{
+        margin-left: 30px;
+        margin-right: 0;
+        column-gap: 15px;
+    }
+    .card{
+        width: 21%; 
+    }
 }
 
- /* Extra small devices (phones, 600px and down) */
-//@media only screen and (max-width: 600px) {...}
-///* Small devices (portrait tablets and large phones, 600px and up) */
-//@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 800px) {
+    .contenedor{
+        column-gap: 25px;
+        row-gap: 20px;
+    }
+}
+@media only screen and (min-width: 950px) {
+    .contenedor{         
+        column-gap: 35px;
+    }
+}
 ///* Medium devices (landscape tablets, 768px and up) */
-//@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 1200px) {
+    .contenedor{
+        justify-content: flex-start;
+        column-gap: 46px;
+    }
+    .card{
+        width: 16%;
+    }     
+}
+@media only screen and (min-width: 1400px) {
+    .contenedor{
+        column-gap: 50px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .contenedor{
+        column-gap: 60px;
+    }
+}
+@media only screen and (min-width: 1700px) {
+    .contenedor{
+        column-gap: 40px;
+    }
+    .card{
+        width: 14%;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    .contenedor{
+        column-gap: 42px;
+    }
+}
+@media only screen and (min-width: 1900px) {
+    .contenedor{
+        column-gap: 48px;
+    }
+}
+
 ///* Large devices (laptops/desktops, 992px and up) */
 //@media only screen and (min-width: 992px) {...}
 ///* Extra large devices (large laptops and desktops, 1200px and up) */
 //@media only screen and (min-width: 1200px) {...}
+//@media only screen and (min-width: 1400px) {...}
+//@media only screen and (min-width: 1500px) {...}
+//@media only screen and (min-width: 1700px) {...}
+//@media only screen and (min-width: 1800px) {...}
+//@media only screen and (min-width: 1900px) {...}
 
