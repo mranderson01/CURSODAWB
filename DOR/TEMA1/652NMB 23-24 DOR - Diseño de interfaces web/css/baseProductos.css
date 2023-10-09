@@ -1,0 +1,171 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "header menuu" "main main" "footer footer";
+  grid-template-columns: 75% 25%;
+}
+
+header {
+  grid-area: header;
+  background-color: rgb(0, 195, 255);
+  height: 50px;
+  text-align: center;
+}
+header p {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+#menu > p {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+#menu {
+  grid-area: menuu;
+  background-color: rgb(60, 255, 0);
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  background-color: rgb(7, 122, 156);
+  overflow-y: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  height: 110px;
+  width: 31%;
+}
+.card img {
+  height: 50px;
+  width: 50px;
+}
+
+#promo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#catalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#rowContPromociones {
+  height: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+}
+
+.rowContCatalogos {
+  margin-top: 16px;
+}
+
+#catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+}
+
+.rowContItems {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  row-gap: 7px;
+  margin-top: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*
+    *Mobile: 360 x 640
+    *Mobile: 375 x 667
+    *Mobile: 360 x 720
+    *iPhone X: 375 x 812
+    *Pixel 2: 411 x 731
+    Tablet: 768 x 1024
+    Laptop: 1366 x 768
+    High-res laptop or desktop: 1920 x 1080
+*/
+@media only screen and (min-width: 500px) {
+  .rowContItems {
+    -moz-column-gap: 14px;
+         column-gap: 14px;
+    row-gap: 14px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .rowContItems {
+    -moz-column-gap: 21px;
+         column-gap: 21px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .rowContItems {
+    width: 100%;
+    margin-left: 7px;
+  }
+  .rowContCatalogos {
+    width: 100%;
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .rowContItems {
+    width: 100%;
+    -moz-column-gap: 38px;
+         column-gap: 38px;
+  }
+  .rowContCatalogos {
+    width: 100%;
+    margin-right: 15px;
+  }
+  #catalogo {
+    margin-top: 10px;
+  }
+}
+/*Requisitos del catálogo
+—El catálogo mostrará entre tres y cinco productos por fila.
+
+—Cada producto constará de una imagen identificativa, un título que describa muy brevemente
+ el producto o servicio y un precio, así como de un contador de reputación (estrellas o similar).
+
+—Se reservará un área en la parte superior y en alguna fila intermedia del catálogo para promociones
+ o novedades, o bien para ubicar un banner informativo.
+
+Maquetación del catálogo:
+
+Mostrar entre tres y cinco productos por fila. (0,8 puntos)
+Información de cada producto (imagen, título, precio, contador de reputación). (0,7 puntos)
+Reserva de espacio para promociones, novedades o banners informativos. (0,6 puntos)
+Adecuada redistribución de los elementos en los demás tamaños de pantalla. (0,6 puntos)*//*# sourceMappingURL=baseProductos.css.map */
