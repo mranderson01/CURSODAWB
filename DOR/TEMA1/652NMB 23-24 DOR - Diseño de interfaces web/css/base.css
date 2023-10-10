@@ -46,8 +46,8 @@ main {
 }
 
 .card {
-  height: 100px;
-  width: 47%;
+  height: 150px;
+  width: 100%;
   margin-right: 5px;
   border: 1px solid white;
   display: flex;
@@ -56,8 +56,8 @@ main {
 }
 
 .card > img {
-  height: 30px;
-  width: 30px;
+  height: 100px;
+  width: 164px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -77,7 +77,53 @@ footer {
   padding-bottom: 10px;
 }
 
+@media only screen and (min-width: 250px) {
+  .card > img {
+    height: 100px;
+    width: 210px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .card > img {
+    height: 100px;
+    width: 262px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .card > img {
+    height: 100px;
+    width: 308px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .card > img {
+    height: 114px;
+    width: 357px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .card > img {
+    height: 114px;
+    width: 404px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
 @media only screen and (min-width: 500px) {
+  .card > img {
+    height: 114px;
+    width: 140px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
   .contenedor {
     -moz-column-gap: 5px;
          column-gap: 5px;
@@ -88,16 +134,22 @@ footer {
 }
 @media only screen and (min-width: 600px) {
   .main {
-    overflow: auto;
+    overflow: hidden;
   }
   .contenedor {
-    margin-left: 30px;
+    margin-left: 5px;
     margin-right: 0;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    -moz-column-gap: 12px;
+         column-gap: 12px;
   }
   .card {
-    width: 21%;
+    width: 22%;
+  }
+  .card > img {
+    height: 114px;
+    width: 111px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -106,53 +158,92 @@ footer {
          column-gap: 25px;
     row-gap: 20px;
   }
-}
-@media only screen and (min-width: 950px) {
   .contenedor {
-    -moz-column-gap: 35px;
-         column-gap: 35px;
+    margin-left: 5px;
+    margin-right: 0;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .card > img {
+    height: 114px;
+    width: 163px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .contenedor {
+    -moz-column-gap: 24px;
+         column-gap: 24px;
+  }
+  .card > img {
+    height: 114px;
+    width: 185px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contenedor {
+    -moz-column-gap: 28px;
+         column-gap: 28px;
+  }
+  .card > img {
+    height: 114px;
+    width: 203px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .contenedor {
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+  .card > img {
+    height: 114px;
+    width: 230px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .contenedor {
     justify-content: flex-start;
-    -moz-column-gap: 46px;
-         column-gap: 46px;
+    -moz-column-gap: 48px;
+         column-gap: 48px;
+    margin-left: 15px;
   }
   .card {
     width: 16%;
   }
+  .card > img {
+    height: 114px;
+    width: 178px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1300px) {
+  card {
+    width: 12%;
+  }
   .contenedor {
-    -moz-column-gap: 50px;
-         column-gap: 50px;
+    -moz-column-gap: 1.5px;
+         column-gap: 1.5px;
+  }
+  .card > img {
+    height: 114px;
+    width: 195px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 1500px) {
-  .contenedor {
-    -moz-column-gap: 60px;
-         column-gap: 60px;
-  }
-}
-@media only screen and (min-width: 1700px) {
-  .contenedor {
-    -moz-column-gap: 40px;
-         column-gap: 40px;
-  }
-  .card {
-    width: 14%;
-  }
-}
-@media only screen and (min-width: 1800px) {
-  .contenedor {
-    -moz-column-gap: 42px;
-         column-gap: 42px;
-  }
-}
-@media only screen and (min-width: 1900px) {
-  .contenedor {
-    -moz-column-gap: 48px;
-         column-gap: 48px;
+  .card > img {
+    height: 114px;
+    width: 222px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }/*# sourceMappingURL=base.css.map */

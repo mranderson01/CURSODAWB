@@ -51,8 +51,8 @@ main{
     width: 31%;
     
     img{
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
 }
 #promo1{
@@ -119,8 +119,11 @@ footer{
 }
 //@media only screen and (min-width: 600px) {}
 @media only screen and (min-width: 700px) {
+    main{
+        overflow-y: unset;
+    }
     .rowContItems{
-        column-gap: 21px;
+        column-gap: 2%;
     }
 } 
 @media only screen and (min-width: 800px) {
@@ -148,12 +151,18 @@ footer{
         margin-top: 10px;
     }
 }
+
+@media only screen and (min-width: 1300px) {
+    .rowContItems{
+        column-gap: 3%;
+    }
+}
 //@media only screen and (min-width: 1400px) {...}
 //@media only screen and (min-width: 1500px) {...}
 //@media only screen and (min-width: 1700px) {...}
 //@media only screen and (min-width: 1800px) {...}
 //@media only screen and (min-width: 1900px) {...}
-
+//@media only screen and (min-width: 2550px) {...}
 /*Requisitos del catálogo
 —El catálogo mostrará entre tres y cinco productos por fila.
 
