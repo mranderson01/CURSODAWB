@@ -7,9 +7,7 @@ const DOM = {
 }
 //TODO: 
 const pintarCaracteres = (e)=>{
-    e.preventDefault();
-    //console.log(e)
-
+    e.preventDefault(); 
     //ver si el ultimo valor es numero o un signo
     let datosPantalla=DOM.datosPantalla.textContent;
     let longDato = datosPantalla.length;
@@ -22,30 +20,12 @@ const pintarCaracteres = (e)=>{
             DOM.error.innerHTML="<mark>El primer numero tiene que ser un número.</mark>"            
         }
     }
-    
-    //Si es de tipo input 
-    //tagName: "INPUT"    
-    
-    if (e.target.tagName=="INPUT") {
-        let valorCalculadora = e.target.value;   
-        /*if (longDato>=1) {
-            if (ultimoCaracter == "*" && valorCalculadora=="*") 
-            {
-                console.log("Los dos ultimos caracteres son * y estan permitidos")
-                return;
-            }
 
-            if (!Number.isNaN(parseFloat(ultimoCaracter)) && 
-                Number.isNaN(parseFloat(valorCalculadora)))
-            {
-                console.log("el ultimo caracter no es un numero.")               
-            }
-            console.log("el primer y ultimo caracter son numeros")
-            
-        }*/
+    //Si es de tipo input tagName: "INPUT"
+    if (e.target.tagName=="INPUT") {
+        let valorCalculadora = e.target.value;          
         DOM.datosPantalla.innerHTML+=`${valorCalculadora}`;
-    }
-    
+    }    
 }
 
 
@@ -59,14 +39,62 @@ const limpiarPantalla = (e)=>{
     })
 }
 
+const resolverResultado = ()=>{
+    let datosPantalla=DOM.datosPantalla.textContent;
+    if (datosPantalla[0]=="√") {
+        let numero = "";
+        for (let index = 1; index < datosPantalla.length; index++) {
+            if (datosPantalla[index]==".") {
+                DOM.error.innerText="ERROR!!. No puede tener un punto en esta operacion. Vuelve a intentarlo."
+                limpiarPantalla();
+                index=datosPantalla.length;
+                return;
+            }
+            numero+=datosPantalla[index];
+        }
 
-const resolverCalculo = (e)=>{
+        let resultado=Math.sqrt(parseInt(numero))
+        return resultado;
+    } 
+    return eval(datosPantalla);
+}
+
+
+
+const mostrarResultado = (e)=>{
+    e.preventDefault();
+    
+    resultado=resolverResultado();
+     
+    limpiarPantalla(e);
+
+    DOM.datosPantalla.textContent=resultado;
+}
+
+const resolverRaiz=(e)=>{
     e.preventDefault();
 
-    let datosPantalla=DOM.datosPantalla.textContent;
-    let resultado=eval(datosPantalla);
     limpiarPantalla(e);
-    DOM.datosPantalla.textContent=resultado;
+
+    let resultado = Math.random() * (100-1) + 1;
+    
+    DOM.datosPantalla.textContent=resultado.toPrecision(2); 
+}
+
+const resolverArcocoseno = (e) =>{
+    e.preventDefault();
+    let numeroPantalla = DOM.datosPantalla.textContent
+    if (numeroPantalla=="") {
+        
+    }
+    
+    numeroPantalla = parseFloat(DOM.datosPantalla.textContent);
+    
+    limpiarPantalla(e);
+
+    let resultArcoCoseno=Math.acos(numeroPantalla).toPrecision(5);
+
+    DOM.datosPantalla.textContent=resultArcoCoseno;
 }
 
 
@@ -79,7 +107,13 @@ const calcular = (e) => {
             limpiarPantalla(e);
             break;
         case "=":
-            resolverCalculo(e);        
+            mostrarResultado(e);        
+            break;
+        case "rand":
+            resolverRaiz(e);
+            break;
+        case "AC":
+            resolverArcocoseno(e);
             break;
         default:
             pintarCaracteres(e);
