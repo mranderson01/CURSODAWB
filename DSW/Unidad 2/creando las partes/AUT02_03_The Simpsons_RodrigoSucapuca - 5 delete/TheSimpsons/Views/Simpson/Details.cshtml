@@ -1,0 +1,30 @@
+﻿@model TheSimpsons.Models.PersonajeSimpson;
+ 
+@{
+    <div class="container">
+        <div class="row">
+            <h1>Detalles del personaje</h1>
+
+            
+
+
+            <p>@Html.DisplayNameFor(model=>model.Id): @Model.name</p>
+            <p>@Html.DisplayNameFor(model=>model.age): @Model.age</p>
+            <p>@Html.DisplayNameFor(model=>model.relationship): @Model.relationship</p>            
+        </div>                
+        <div class="col-6">
+
+            <a type="button"
+               class="btn btn-warning col-2 m-1"
+               asp-controller="Simpson"
+               asp-action="Update"
+               asp-route-itemid=@Model.Id> Actualizar</a>
+
+            <a type="button"
+               class="btn btn-primary"
+               asp-controller="Simpson"
+               asp-action="Index">Volver a lista de Personajes</a>
+        </div>
+    </div>
+   
+}

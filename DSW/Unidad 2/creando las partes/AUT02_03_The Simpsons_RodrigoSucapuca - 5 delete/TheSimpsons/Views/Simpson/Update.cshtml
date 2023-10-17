@@ -1,0 +1,53 @@
+﻿@model TheSimpsons.Models.PersonajeSimpson;
+ 
+@{
+    <div class="container">
+        <div class="row">
+            <form asp-controller="Simpson" asp-action="Update" asp-route-itemid=@Model method="post">
+                <div class="mb-3">                    
+                    <input type="hidden" class="form-control" id="Id" aria-describedby="Id" asp-for="Id">
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">@Html.DisplayNameFor(model=>model.name)</label>
+                    <input type="text" class="form-control" id="nombre" aria-describedby="nombre" asp-for="name">
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="age" class="form-label">@Html.DisplayNameFor(model=>model.age)</label>
+                    <input type="text" class="form-control" id="age" asp-for="age">
+                    <span asp-validation-for="age" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="relationship" class="form-label">
+                        @Html.DisplayNameFor(model=>model.relationship)
+                        <select class="form-select" id="relationship" asp-for="relationship">
+                            <option value="Padre">Padre</option>
+                            <option value="Madre">Madre</option>
+                            <option value="Hijo Mayor">Hijo Mayor</option>
+                            <option value="Hija Mayor">Hija Mayor</option>
+                            <option value="Bebé">Bebé</option>
+                            <option value="Vecino">Vecino</option>
+                            <option value="Alien">Alien</option>
+                        </select>
+                    </label>
+                    <span asp-validation-for="relationship" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-warning ms-1">Atualizar</button>
+            </form>
+        </div>
+
+    </div>
+
+   <div class="row">
+        <div class="col-4 mt-1 ms-3">
+            <a type="button"
+               class="btn btn-primary "
+               asp-controller="Simpson"
+               asp-action="Index">
+                Volver a listado de personajes
+            </a>
+        </div>
+   </div>
+
+    
+}

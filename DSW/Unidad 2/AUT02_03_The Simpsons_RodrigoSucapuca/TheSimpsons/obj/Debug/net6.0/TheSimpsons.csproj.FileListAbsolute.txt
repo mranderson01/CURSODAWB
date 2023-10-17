@@ -1,0 +1,92 @@
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\appsettings.Development.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\appsettings.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\TheSimpsons.staticwebassets.runtime.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\TheSimpsons.exe
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\TheSimpsons.deps.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\TheSimpsons.runtimeconfig.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\bin\Debug\net6.0\TheSimpsons.pdb
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.csproj.AssemblyReference.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.AssemblyInfoInputs.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.AssemblyInfo.cs
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.csproj.CoreCompileInputs.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.MvcApplicationPartsAssemblyInfo.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.RazorAssemblyInfo.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.RazorAssemblyInfo.cs
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.TheSimpsons.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.build.TheSimpsons.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TheSimpsons.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TheSimpsons.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets.build.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\staticwebassets.development.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\scopedcss\bundle\TheSimpsons.styles.css
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\scopedcss\projectbundle\TheSimpsons.bundle.scp.css
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\refint\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.pdb
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\TheSimpsons.genruntimeconfig.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\TheSimpsons\TheSimpsons\obj\Debug\net6.0\ref\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\appsettings.Development.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\appsettings.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.staticwebassets.runtime.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.exe
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.deps.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.runtimeconfig.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.pdb
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.csproj.AssemblyReference.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.AssemblyInfoInputs.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.AssemblyInfo.cs
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.csproj.CoreCompileInputs.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.MvcApplicationPartsAssemblyInfo.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.RazorAssemblyInfo.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.RazorAssemblyInfo.cs
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.TheSimpsons.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.build.TheSimpsons.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TheSimpsons.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TheSimpsons.props
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets.build.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets.development.json
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\scopedcss\bundle\TheSimpsons.styles.css
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\scopedcss\projectbundle\TheSimpsons.bundle.scp.css
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\refint\TheSimpsons.dll
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.pdb
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.genruntimeconfig.cache
+D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\ref\TheSimpsons.dll
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\appsettings.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.staticwebassets.runtime.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.exe
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.deps.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.runtimeconfig.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.dll
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.pdb
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.AssemblyInfoInputs.cache
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.AssemblyInfo.cs
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.csproj.CoreCompileInputs.cache
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.RazorAssemblyInfo.cache
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.RazorAssemblyInfo.cs
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.TheSimpsons.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.build.TheSimpsons.props
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TheSimpsons.props
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TheSimpsons.props
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\scopedcss\bundle\TheSimpsons.styles.css
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\scopedcss\projectbundle\TheSimpsons.bundle.scp.css
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.dll
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\refint\TheSimpsons.dll
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.pdb
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.genruntimeconfig.cache
+C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\ref\TheSimpsons.dll

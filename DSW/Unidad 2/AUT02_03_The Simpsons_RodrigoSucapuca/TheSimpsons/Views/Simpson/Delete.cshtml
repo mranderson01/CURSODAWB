@@ -1,0 +1,39 @@
+﻿@model TheSimpsons.Models.PersonajeSimpson;
+ 
+@{
+    <div class="container">
+        <div class="row m-1">
+             <table>             
+                <thead>                     
+                        <th>@Html.DisplayNameFor(model=>model.name)</th>
+                        <th>@Html.DisplayNameFor(model=>model.age)</th>
+                        <th>@Html.DisplayNameFor(model=>model.relationship)</th>                    
+                </thead>                    
+                <tbody>
+                    <tr>
+                        <td>@Html.DisplayFor(model=>model.name)</td>
+                        <td>@Html.DisplayFor(model=>model.age)</td>
+                        <td>@Html.DisplayFor(model=>model.relationship)</td>
+                    </tr>
+                </tbody>             
+             </table>            
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <a type="button"
+                   class="btn btn-danger"
+                   asp-controller="Simpson"
+                   asp-action="DeleteConfirmed"
+                   asp-route-itemid=@Model.Id>
+                    Confirmar Borrado
+                </a>
+                <a type="button"
+                   class="btn btn-primary"
+                   asp-controller="Simpson"
+                   asp-action="Index">
+                    Volver a listado de personajes
+                </a>
+            </div>            
+        </div>
+    </div>
+}

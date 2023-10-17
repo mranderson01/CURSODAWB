@@ -1,0 +1,63 @@
+﻿@model List<PersonajeSimpson>;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div class="container ">       
+        <div class="row">
+            <div class="col-2">
+                <a type="button"
+                   class="btn btn-primary  "
+                   asp-controller="Simpson"
+                   asp-action="Create">Crear Personaje</a>
+            </div>            
+            <span>@ViewData["Mensaje"]</span>
+            <h1 class="text-center">Bienvenidos a The Simpsons App</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model[0].Id)</th>
+                        <th>@Html.DisplayNameFor(model => model[0].name)</th>
+                        <th>@Html.DisplayNameFor(model => model[0].age)</th>
+                        <th>@Html.DisplayNameFor(model => model[0].relationship)</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <hr/>
+                <tbody class="">
+                    @foreach (var personaje in Model)
+                    {                                                                       
+                        <tr class="">     
+ 
+                            <td>@personaje.Id</td>
+                            <td>@personaje.name</td>
+                            <td>@personaje.age</td>
+                            <td>@personaje.relationship</td>
+                            <td><a 
+                                type="button"
+                                class="btn btn-primary"
+                                asp-controller="Simpson" 
+                                asp-action="Details"
+                                asp-route-itemid=@personaje.Id>Detalles</a>
+                            </td>
+                            <td><a 
+                                type="button"
+                                class="btn btn-warning"
+                                asp-controller="Simpson" 
+                                asp-action="Update"
+                                asp-route-itemid=@personaje.Id> Actualizar</a>
+                            </td>
+                            <td><a 
+                                type="button"
+                                class="btn btn-danger"
+                                asp-controller="Simpson"
+                                asp-action="Delete"
+                                asp-route-itemid=@personaje.Id>Eliminar</a>
+                            </td>
+                        </tr> 
+                    }
+                </tbody>
+            </table>
+        </div>        
+    </div>
+}
