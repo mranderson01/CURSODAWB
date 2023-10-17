@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\2dawb\\Desktop\\2DAWB\\dsw_ejercicios\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2dawb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\Projectos\\CURSODAWB\\DSW_carpeta\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj": {}
+  },
+  "projects": {
+    "D:\\Projectos\\CURSODAWB\\DSW_carpeta\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projectos\\CURSODAWB\\DSW_carpeta\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj",
+        "projectName": "TheSimpsons",
+        "projectPath": "D:\\Projectos\\CURSODAWB\\DSW_carpeta\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj",
+        "packagesPath": "C:\\Users\\rodrigo2\\.nuget\\packages\\",
+        "outputPath": "D:\\Projectos\\CURSODAWB\\DSW_carpeta\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodrigo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 6f43f9840fb54f2ad81783142edbd7f1b4a809d5
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +39,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+>>>>>>> 6f43f9840fb54f2ad81783142edbd7f1b4a809d5
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +79,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+>>>>>>> 6f43f9840fb54f2ad81783142edbd7f1b4a809d5
         }
       }
     }

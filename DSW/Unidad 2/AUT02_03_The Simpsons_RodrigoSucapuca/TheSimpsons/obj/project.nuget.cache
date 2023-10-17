@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "re7Im7zwF1TnWo4fO2fupDqg3IQJoKf5M0CiwniJ7oirNtpi4QSet24V0szYlUVZTqFtTSq9GQT4V8zqncY/GQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\2dawb\\Desktop\\2DAWB\\dsw_ejercicios\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj",
+=======
+  "dgSpecHash": "2qwwe9mYvzAqA7w62WAZVRYA5Jhi6BULUB7I0G8n9LOmnBaJOw0yhqk2NautB95gqk/BjFPUOHu1K9mLZq2raA==",
+  "success": true,
+  "projectFilePath": "D:\\Projectos\\CURSODAWB\\DSW_carpeta\\aut02-03-mranderson01\\AUT02_03_The Simpsons_RodrigoSucapuca\\TheSimpsons\\TheSimpsons.csproj",
+>>>>>>> 6f43f9840fb54f2ad81783142edbd7f1b4a809d5
   "expectedPackageFiles": [],
   "logs": []
 }

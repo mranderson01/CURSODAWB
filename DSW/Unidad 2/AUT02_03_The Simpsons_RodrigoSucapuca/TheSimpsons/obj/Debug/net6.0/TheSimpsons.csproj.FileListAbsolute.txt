@@ -60,6 +60,7 @@ D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_R
 D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.pdb
 D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.genruntimeconfig.cache
 D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\ref\TheSimpsons.dll
+<<<<<<< HEAD
 C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\appsettings.json
 C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\bin\Debug\net6.0\TheSimpsons.staticwebassets.runtime.json
@@ -90,3 +91,5 @@ C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The S
 C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.pdb
 C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\TheSimpsons.genruntimeconfig.cache
 C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\obj\Debug\net6.0\ref\TheSimpsons.dll
+=======
+>>>>>>> 6f43f9840fb54f2ad81783142edbd7f1b4a809d5

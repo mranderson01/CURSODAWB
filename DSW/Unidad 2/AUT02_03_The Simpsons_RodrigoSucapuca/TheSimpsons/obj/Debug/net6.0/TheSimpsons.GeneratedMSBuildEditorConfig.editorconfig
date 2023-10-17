@@ -9,6 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TheSimpsons
 build_property.RootNamespace = TheSimpsons
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
@@ -61,5 +62,59 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Shared/_Layout.cshtml]
+=======
+build_property.ProjectDir = D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projectos\CURSODAWB\DSW_carpeta\aut02-03-mranderson01\AUT02_03_The Simpsons_RodrigoSucapuca\TheSimpsons
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Simpson/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltcHNvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Simpson/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltcHNvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Simpson/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltcHNvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Simpson/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltcHNvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Simpson/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2ltcHNvblxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/DSW_carpeta/aut02-03-mranderson01/AUT02_03_The Simpsons_RodrigoSucapuca/TheSimpsons/Views/Shared/_Layout.cshtml]
+>>>>>>> 6f43f9840fb54f2ad81783142edbd7f1b4a809d5
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yfng6bb5nm
