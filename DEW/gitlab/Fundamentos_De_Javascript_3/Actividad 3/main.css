@@ -1,0 +1,25 @@
+#contenedorPrincipal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1%; 
+}
+
+#pantalla{ 
+    background: rgb(16,121,9);
+    background: linear-gradient(0deg, rgba(16,121,9,1) 6%, rgba(255,241,0,1) 100%); 
+}
+
+#ventana{
+    background: rgb(247,255,0);
+    background: linear-gradient(0deg, rgba(247,255,0,1) 0%, rgba(255,0,0,1) 100%); 
+}
+
+#despedida{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(249,69,105,1) 100%); 
+}
+.conteiner{
+    height: 200px;
+    width: 48%;
+}
