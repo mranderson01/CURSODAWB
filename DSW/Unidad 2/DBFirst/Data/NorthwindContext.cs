@@ -17,7 +17,8 @@ public partial class NorthwindContext : DbContext
     }
 
     public virtual DbSet<Supplier> Suppliers { get; set; }
-    
+    public virtual DbSet<Shipper> Shipper { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Supplier>(entity =>
@@ -39,8 +40,16 @@ public partial class NorthwindContext : DbContext
             entity.Property(e => e.Region).HasMaxLength(15);
         });
 
+        modelBuilder.Entity<Shipper>(entity => {
+            entity.HasIndex(e=>e.ShipperID);
+            entity.HasIndex(e => e.CompanyName);
+            entity.HasIndex(e => e.Phone);
+        });
+
         OnModelCreatingPartial(modelBuilder);
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+    
 }
