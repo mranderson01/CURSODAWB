@@ -9,77 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DBFirst
 build_property.RootNamespace = DBFirst
-build_property.ProjectDir = C:\Users\2dawb\Desktop\2DAWB\CURSODAWB\DSW\Unidad 2\DBFirst\
+build_property.ProjectDir = D:\Projectos\CURSODAWB\CURSODAWB\DSW\Unidad 2\DBFirst\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\2dawb\Desktop\2DAWB\CURSODAWB\DSW\Unidad 2\DBFirst
+build_property.MSBuildProjectDirectory = D:\Projectos\CURSODAWB\CURSODAWB\DSW\Unidad 2\DBFirst
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Home/Index.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Company/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Company/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Company/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Company/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Home/Privacy.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shared/Error.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Create.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Delete.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Details.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Edit.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Index.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shipper/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Create.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Delete.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Details.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Edit.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Index.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Supplier/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/_ViewImports.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/_ViewStart.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2dawb/Desktop/2DAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shared/_Layout.cshtml]
+[D:/Projectos/CURSODAWB/CURSODAWB/DSW/Unidad 2/DBFirst/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ry8ghs47xs

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Musica_SucapucaRodrigo.Models.Album>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container-fluid">
+    <div class="row-cols-6">
+        <h1>Albumes</h1>
+        <p>
+            <a class="btn btn-primary" asp-action="Create">Crear Nuevo Album</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="col-4">
+                        @Html.DisplayNameFor(model => model.Title)
+                    </th>
+                    <th class="col-3">
+                        @Html.DisplayNameFor(model => model.ArtistId)
+                    </th>
+                    <th class="col-5"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Artist.Name)
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.AlbumId">Editar</a>
+                            <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.AlbumId">Detalles</a>
+                            <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.AlbumId">Eliminar</a>
+                            <a class="btn btn-info" asp-action="Lista" asp-route-id="@item.AlbumId">Lista de canciones</a>                            
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>    
+</div>
+

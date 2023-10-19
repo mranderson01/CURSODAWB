@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Musica_SucapucaRodrigo.Models.Track>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Crear Nueva Cancion</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="col-3">
+                @Html.DisplayNameFor(model => model.Name)
+            </th> 
+            <th class="col-3">
+                @Html.DisplayNameFor(model => model.Composer)
+            </th>  
+            <th class="col-1">
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th class="col-3">
+                @Html.DisplayNameFor(model => model.Album)
+            </th> 
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td> 
+            <td>
+                @Html.DisplayFor(modelItem => item.Composer)
+            </td>  
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Album.Title)
+            </td> 
+        </tr>
+}
+    </tbody>
+</table>

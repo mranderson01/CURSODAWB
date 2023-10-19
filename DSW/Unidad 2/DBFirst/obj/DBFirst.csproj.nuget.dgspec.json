@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2dawb\\Desktop\\2DAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj": {}
+    "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2dawb\\Desktop\\2DAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj": {
+    "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2dawb\\Desktop\\2DAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj",
+        "projectUniqueName": "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj",
         "projectName": "DBFirst",
-        "projectPath": "C:\\Users\\2dawb\\Desktop\\2DAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj",
-        "packagesPath": "C:\\Users\\2dawb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2dawb\\Desktop\\2DAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\obj\\",
+        "projectPath": "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\DBFirst.csproj",
+        "packagesPath": "C:\\Users\\rodrigo2\\.nuget\\packages\\",
+        "outputPath": "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 2\\DBFirst\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\2dawb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rodrigo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

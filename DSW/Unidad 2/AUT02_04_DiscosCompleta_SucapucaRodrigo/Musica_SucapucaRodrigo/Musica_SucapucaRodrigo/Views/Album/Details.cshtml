@@ -1,0 +1,42 @@
+﻿@model Musica_SucapucaRodrigo.Models.Album
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Album</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ArtistId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Artist.Name)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h1>Lista de canciones del Album:</h1>
+    <ul>
+        @foreach (var track in Model.Tracks)
+        {
+            <li>@track.Name</li>
+        }
+    </ul>
+      
+</div>
+
+<div>
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.AlbumId">Editar</a> |
+    <a class="btn btn-primary" asp-action="Index">Volver a listado de albumes</a>
+</div>

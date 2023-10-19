@@ -17,10 +17,14 @@ public partial class NorthwindContext : DbContext
     }
 
     public virtual DbSet<Supplier> Suppliers { get; set; }
-    public virtual DbSet<Shipper> Shipper { get; set; }
+    public virtual DbSet<Shipper> Shippers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        //EXCLUIR TABLAS
+        modelBuilder.Entity<Supplier>().ToTable("Suppliers",t=>t.ExcludeFromMigrations());
+        modelBuilder.Entity<Shipper>().ToTable("Shippers", t => t.ExcludeFromMigrations());
+
         modelBuilder.Entity<Supplier>(entity =>
         {
             entity.HasIndex(e => e.CompanyName, "CompanyName");
@@ -40,16 +44,32 @@ public partial class NorthwindContext : DbContext
             entity.Property(e => e.Region).HasMaxLength(15);
         });
 
-        modelBuilder.Entity<Shipper>(entity => {
-            entity.HasIndex(e=>e.ShipperID);
-            entity.HasIndex(e => e.CompanyName);
-            entity.HasIndex(e => e.Phone);
-        });
+        //SEEDER COMPANY
+        modelBuilder.Entity<Company>().HasData(
+           new Company
+           {
+               Id = 1,
+               Name = "OneCompany",
+               Description = "Es la primera compañia",
+           },
+           new Company
+           {
+               Id = 2,
+               Name = "TwoCompany",
+               Description = "Es la segunda compañia",
+           },
+           new Company
+           {
+               Id = 3,
+               Name = "ThreeCompany",
+               Description = "Es la tercera compañia",
+           }
+       );
 
         OnModelCreatingPartial(modelBuilder);
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
-    
+    public DbSet<Company>? Company { get; set; }            
 }

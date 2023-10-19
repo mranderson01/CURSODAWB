@@ -18,5 +18,7 @@ public partial class Shipper
     public string CompanyName { get; set; }
 
     [StringLength(24)]
-    public string Phone { get; set; }
+    public string Phone { get; set; } 
+
+    public List<Company> Companies { get; set; }
 }
