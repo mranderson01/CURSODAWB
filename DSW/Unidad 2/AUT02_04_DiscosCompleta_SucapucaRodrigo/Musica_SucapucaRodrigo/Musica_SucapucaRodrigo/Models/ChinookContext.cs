@@ -43,7 +43,5 @@ public partial class ChinookContext : DbContext
         OnModelCreatingPartial(modelBuilder);
     }
 
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-
-    public DbSet<Musica_SucapucaRodrigo.Models.TrackDTO>? TrackDTO { get; set; }
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder); 
 }

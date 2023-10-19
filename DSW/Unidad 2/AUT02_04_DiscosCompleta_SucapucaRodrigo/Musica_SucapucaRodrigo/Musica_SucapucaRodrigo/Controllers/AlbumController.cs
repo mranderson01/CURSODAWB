@@ -25,7 +25,7 @@ namespace Musica_SucapucaRodrigo.Controllers
         // GET: Album
         public async Task<IActionResult> Index()
         {
-            var Albums = _context.Albums.Include(a => a.Artist).Include(t=>t.Tracks).Take(15);
+            var Albums = _context.Albums.Include(a => a.Artist).Include(t=>t.Tracks).OrderByDescending(t => t.AlbumId).Take(15);
             return View(await Albums.ToListAsync());
         }
          
@@ -73,7 +73,7 @@ namespace Musica_SucapucaRodrigo.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(album);
+                _context.Albums.Add(album);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
