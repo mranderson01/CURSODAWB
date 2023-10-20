@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "header menuu" "main main" "footer footer";
+  grid-template-columns: 75% 25%;
+}
+
+header {
+  grid-area: header;
+  background-color: rgb(0, 195, 255);
+  height: 50px;
+  text-align: center;
+}
+
+#menu {
+  grid-area: menuu;
+  background-color: rgb(60, 255, 0);
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  background-color: rgb(7, 122, 156);
+  overflow-y: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.areas > h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  margin-left: 10px;
+}
+
+.card {
+  height: 150px;
+  width: 100%;
+  margin-right: 5px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card > img {
+  height: 100px;
+  width: 164px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+#areaPublicacion > .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 250px) {
+  .card > img {
+    height: 100px;
+    width: 210px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .card > img {
+    height: 100px;
+    width: 262px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .card > img {
+    height: 100px;
+    width: 308px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .card > img {
+    height: 114px;
+    width: 357px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .card > img {
+    height: 114px;
+    width: 404px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .card > img {
+    height: 114px;
+    width: 140px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .contenedor {
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+  .card {
+    width: 31%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .main {
+    overflow: hidden;
+  }
+  .contenedor {
+    margin-left: 5px;
+    margin-right: 0;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .card {
+    width: 22%;
+  }
+  .card > img {
+    height: 114px;
+    width: 111px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .contenedor {
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+    row-gap: 20px;
+  }
+  .contenedor {
+    margin-left: 5px;
+    margin-right: 0;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .card > img {
+    height: 114px;
+    width: 163px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .contenedor {
+    -moz-column-gap: 24px;
+         column-gap: 24px;
+  }
+  .card > img {
+    height: 114px;
+    width: 185px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contenedor {
+    -moz-column-gap: 28px;
+         column-gap: 28px;
+  }
+  .card > img {
+    height: 114px;
+    width: 203px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .contenedor {
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+  .card > img {
+    height: 114px;
+    width: 230px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contenedor {
+    justify-content: flex-start;
+    -moz-column-gap: 48px;
+         column-gap: 48px;
+    margin-left: 15px;
+  }
+  .card {
+    width: 16%;
+  }
+  .card > img {
+    height: 114px;
+    width: 178px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  card {
+    width: 12%;
+  }
+  .contenedor {
+    -moz-column-gap: 1.5px;
+         column-gap: 1.5px;
+  }
+  .card > img {
+    height: 114px;
+    width: 195px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .card > img {
+    height: 114px;
+    width: 222px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+/*object-fit: cover;
+    object-position: center;*//*# sourceMappingURL=base.css.map */
