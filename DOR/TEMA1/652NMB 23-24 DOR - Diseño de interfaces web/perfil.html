@@ -9,43 +9,30 @@
 <body>
     <header>
         <p>NOMBRE EMPRESA O FOTO</p>
-    </header>
-    <div id="menu"><p> </p></div>
+        <div id="menu"><p>MENU</p></div>
+    </header>    
     <main>
-        <h1>Perfil del Usuario</h1>
+        
         <div id="zonaPerfil">
+            <h1>Perfil del Usuario</h1>
             <div>
                 <img src="./img/pilate.jpg" alt="">
             </div>
-            <div>
-                <p>Nombre: <span id="nombre">Nombre</span></p>
-                <p>Correo:<span id="email">Correo</span></p>
-                <p>Dirección:<span id="direccion">calle</span></p>
-                <p>Telefono: <span id="pais">+34</span><span id="telefono"> 000 000 000</span></p>
-                <p>Tipo de tarifa:<span>Tarifa X</span></p>
-                <p>Mi entrenador:<span>Pepito de los palotes</span></p>
+            <div id="infoPerfil">
+                <p><strong>identificacion:</strong><span id="identificacion">1</span></p>
+                <p><strong>Nombre:</strong><span id="nombre">Nombre</span></p>
+                <p><strong>Correo:</strong><span id="email">Correo</span></p>
+                <p><strong>Dirección:</strong><span id="direccion">calle</span></p>
+                <p><strong>Telefono:</strong> <span id="pais">+34</span><span id="telefono"> 000 000 000</span></p>
+                <p><strong>Tipo de tarifa:</strong><span>Tarifa X</span></p>
+                <p><strong>Mi entrenador:</strong><span>Pepito de los palotes</span></p>                 
+            </div>            
+            <div id="editar">
+                <form action="./editarPerfil.html" > 
+                    <input type="submit" value="Editar Perfil" >
+                </form>  
             </div>
-            
-        </div>
-        
-        <div id="edicionPerfil">
-            <h1>Formulario Edición de Perfil</h1>
-            <form action="">
-                <span>
-                    <label for="nombre">Nombre: <input id="nombre" type="text" name="nombre"></label>                    
-                </span> 
-                <span>
-                    <label for="email">Correo:<input id="email" type="email" name="" ></label>
-                </span>
-                <span>
-                    <label for="direccion">Dirección:<input id="direccion" type="text" name="direccion"></label>
-                </span>
-                <span>
-                    <label for="telefono">Telefono:<input id="telefono" type="tel" name="telefono"></label>
-                </span>
-            </form>
-        </div>
-        
+        </div>                        
     </main>
     <footer>
 
