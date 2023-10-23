@@ -1,0 +1,26 @@
+﻿@model Musica_SucapucaRodrigo.Models.Artist
+
+@{
+    ViewData["Title"] = "Eliminar";
+}
+
+<h1>Eliminar Artista</h1>
+
+<h3>¿Seguro que quieres eliminar el artista?</h3>
+<div> 
+    <hr />
+    <dl class="row ">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10 ">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ArtistId" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a class="btn btn-primary" asp-action="Index">Volver a listado Artista</a>
+    </form>
+</div>

@@ -1,0 +1,23 @@
+﻿@model Musica_SucapucaRodrigo.Models.Artist
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Detalles Artista</h1>
+
+<div> 
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.ArtistId">Editar</a> |
+    <a class="btn btn-primary" asp-action="Index">Volver al listado</a>
+</div>

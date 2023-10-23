@@ -22,20 +22,20 @@ namespace DBFirst.Controllers
         // GET: Shipper
         public async Task<IActionResult> Index()
         {
-              return _context.Shipper != null ? 
-                          View(await _context.Shipper.ToListAsync()) :
-                          Problem("Entity set 'NorthwindContext.Shipper'  is null.");
+              return _context.Shippers != null ? 
+                          View(await _context.Shippers.ToListAsync()) :
+                          Problem("Entity set 'NorthwindContext.Shippers'  is null.");
         }
 
         // GET: Shipper/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Shipper == null)
+            if (id == null || _context.Shippers == null)
             {
                 return NotFound();
             }
 
-            var shipper = await _context.Shipper
+            var shipper = await _context.Shippers
                 .FirstOrDefaultAsync(m => m.ShipperID == id);
             if (shipper == null)
             {
@@ -70,12 +70,12 @@ namespace DBFirst.Controllers
         // GET: Shipper/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Shipper == null)
+            if (id == null || _context.Shippers == null)
             {
                 return NotFound();
             }
 
-            var shipper = await _context.Shipper.FindAsync(id);
+            var shipper = await _context.Shippers.FindAsync(id);
             if (shipper == null)
             {
                 return NotFound();
@@ -121,12 +121,12 @@ namespace DBFirst.Controllers
         // GET: Shipper/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Shipper == null)
+            if (id == null || _context.Shippers == null)
             {
                 return NotFound();
             }
 
-            var shipper = await _context.Shipper
+            var shipper = await _context.Shippers
                 .FirstOrDefaultAsync(m => m.ShipperID == id);
             if (shipper == null)
             {
@@ -141,14 +141,14 @@ namespace DBFirst.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Shipper == null)
+            if (_context.Shippers == null)
             {
-                return Problem("Entity set 'NorthwindContext.Shipper'  is null.");
+                return Problem("Entity set 'NorthwindContext.Shippers'  is null.");
             }
-            var shipper = await _context.Shipper.FindAsync(id);
+            var shipper = await _context.Shippers.FindAsync(id);
             if (shipper != null)
             {
-                _context.Shipper.Remove(shipper);
+                _context.Shippers.Remove(shipper);
             }
             
             await _context.SaveChangesAsync();
@@ -157,7 +157,7 @@ namespace DBFirst.Controllers
 
         private bool ShipperExists(int id)
         {
-          return (_context.Shipper?.Any(e => e.ShipperID == id)).GetValueOrDefault();
+          return (_context.Shippers?.Any(e => e.ShipperID == id)).GetValueOrDefault();
         }
     }
 }
