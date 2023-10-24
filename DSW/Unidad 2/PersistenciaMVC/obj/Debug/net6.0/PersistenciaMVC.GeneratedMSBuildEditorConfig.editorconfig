@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PersistenciaMVC
+build_property.RootNamespace = PersistenciaMVC
+build_property.ProjectDir = C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\PersistenciaMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\2dawb\Desktop\2DAWB\dsw_ejercicios\PersistenciaMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Animal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Animal/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Animal/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Animal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Animal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Mamifero/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFtaWZlcm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Mamifero/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFtaWZlcm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Mamifero/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFtaWZlcm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Mamifero/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFtaWZlcm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Mamifero/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFtaWZlcm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Reptil/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdGlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Reptil/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdGlsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Reptil/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdGlsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Reptil/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdGlsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Reptil/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdGlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2dawb/Desktop/2DAWB/dsw_ejercicios/PersistenciaMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-meptnk9ym3
