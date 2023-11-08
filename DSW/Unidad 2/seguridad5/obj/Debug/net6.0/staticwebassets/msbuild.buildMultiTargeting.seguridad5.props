@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\seguridad5.props" />
+</Project>

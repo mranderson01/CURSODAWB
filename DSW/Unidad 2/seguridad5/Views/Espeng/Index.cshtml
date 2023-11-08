@@ -1,0 +1,90 @@
+﻿@using Microsoft.AspNetCore.Identity 
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model IEnumerable<seguridad5.Models.Espeng>
+
+@{
+    ViewData["Title"] = "Terminos";
+}
+
+@{
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="container">
+            <div class="row"> 
+                @{
+                    var user = await UserManager.GetUserAsync(User);
+                    if (await UserManager.IsInRoleAsync(user, "Admin") && await UserManager.IsInRoleAsync(user, "Premium"))
+                    {
+                        <div class="col-12">
+                            <h1>Terminos</h1>
+                            <p>
+                                <a asp-action="Create">Crear Nuevo</a>
+                            </p>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.esp)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.ing)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.esp)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.ing)
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.id">Editar</a> |
+                                                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.id">Detalles</a> |
+                                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id">Eliminar</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-12">
+                            @{
+                                <h1>Terminos</h1>
+                                foreach (var item in Model)
+                                {
+                                    <div class="border border-success p-1">
+                                        <h5>@item.ing</h5>
+                                        <h6>@item.esp</h6>
+                                        @{
+                                            var cantidadFrases= 0;
+                                            var frases = item.frase;
+ 
+                                            if (frases==null)
+                                            {     
+                                                <a class="btn btn-success disabled">Cantidad de Frases @cantidadFrases</a>
+                                            }
+                                            else{
+                                                cantidadFrases=frases.Count;
+                                                <a class="btn btn-success" asp-controller="Espeng"  asp-action="Details" asp-route-idTermino="@item.id">Cantidad de Frases @cantidadFrases</a>
+                                            } 
+                                        } 
+                                    </div>
+                                }
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    }
+}
+

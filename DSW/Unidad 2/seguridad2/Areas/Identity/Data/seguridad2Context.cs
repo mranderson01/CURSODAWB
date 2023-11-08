@@ -13,6 +13,12 @@ public class seguridad2Context : IdentityDbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+
+        builder.Entity<IdentityRole>().HasData(
+            new IdentityRole { 
+
+            }
+        );
         base.OnModelCreating(builder); 
     }
 }
