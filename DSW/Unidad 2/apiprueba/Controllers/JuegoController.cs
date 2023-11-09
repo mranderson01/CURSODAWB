@@ -32,10 +32,14 @@ namespace apiprueba.Controllers
              };
         // GET: api/<JuegoController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
             var juegos=listaJuegos.ToList();
-            return (IEnumerable<string>)juegos;
+            if (juegos==null)
+            {
+                return NotFound();
+            }
+            return Ok(juegos);
         }
 
         // GET api/<JuegoController>/5
@@ -57,21 +61,53 @@ namespace apiprueba.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Juego juego)
         {
-            listaJuegos.Add(juego); 
-            return Ok();
+            if (ModelState.IsValid)
+            {
+                listaJuegos.Add(juego);
+                return Ok();
+            }
+            return BadRequest();
         }
 
         // PUT api/<JuegoController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] Juego juego)
         {
+            if (ModelState.IsValid)
+            {
+                var juegoBuscado=listaJuegos.FirstOrDefault(juego=>juego.id==id);
 
+                 
+                if (juegoBuscado == null)
+                {
+                    return BadRequest();
+                }
+                var CopiaJuego = juegoBuscado;
+                listaJuegos.Remove(juegoBuscado);
+
+                CopiaJuego.id = juego.id;
+                CopiaJuego.Titulo = juego.Titulo;
+                CopiaJuego.Genero = juego.Genero;
+                CopiaJuego.id = juego.id;
+
+                listaJuegos.Add(CopiaJuego);
+                return Ok();
+            }
+            return BadRequest();
         }
 
         // DELETE api/<JuegoController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var juegoEncontrado=listaJuegos.FirstOrDefault(juego=>juego.id==id);
+            if (juegoEncontrado==null)
+            {
+                return BadRequest();
+            }
+
+            listaJuegos.Remove(juegoEncontrado);
+            return Ok();
         }
     }
 }
