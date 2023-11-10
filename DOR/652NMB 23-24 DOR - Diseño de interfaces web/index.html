@@ -3,16 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main/base.css">
     <title>LandingPage</title>
+    <script src="./js/index.js"></script>
 </head>
 <body>    
     <header>
-        <p>NOMBRE EMPRESA O FOTO</p>
-    </header>
-    <div id="menu"><p>MENU</p></div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Gimnasio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#areaGeneral">Servicios Generales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#areapop">Servicios Populares</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#areaNoticias">Noticias o novedades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#areaPromocion">Promociones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#areaPublicacion">Ultima publicacion</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Perfil
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./perfil.html">Perfil</a></li>
+                      <li><a class="dropdown-item" href="./editarPerfil.html">Editar Perfil</a></li> 
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header> 
     <main> 
-        <span id="serviciosGenerales"  class="areas">
+        <span id="areaGeneral"  class="areas">
             <h1>Servicios Generales</h1>
             <div class="contenedor">
                 <span class="card">
@@ -37,7 +80,7 @@
                 </span> 
             </div>
         </span>
-        <span id="servicios populares" class="areas">
+        <span id="areapop" class="areas">
             <h1>Servicios  Populares</h1>
             <div class="contenedor">
                 <span class="card">
@@ -116,14 +159,7 @@
             
         </span>
     </main>
-    <footer>
-        <!--<svg>
-            <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo"></use>
-        </svg>-->
-        <p xmlns:cc="http://creativecommons.org/ns#" >This work is marked with
-            <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a>
-        </p> 
-            
+    <footer> 
         footer
     </footer>
 </body>
