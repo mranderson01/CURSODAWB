@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.Text.Json.Serialization;
 
 namespace Ejercicio2.Models
 {
@@ -17,7 +18,8 @@ namespace Ejercicio2.Models
         public string Description { get; set; }
 
         //GENERO DEL JUEGO
-        public int idGenre { get; set; }
-        public Genre genre { get; set; }
+        public int genreId { get; set; }
+        
+        public Genre? genre { get; set; }
     }
 }

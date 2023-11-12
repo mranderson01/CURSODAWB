@@ -4,7 +4,7 @@
 
 namespace Ejercicio2.Migrations
 {
-    public partial class initialMigrate : Migration
+    public partial class tablasYSeeder : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -30,7 +30,6 @@ namespace Ejercicio2.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    idGenre = table.Column<int>(type: "int", nullable: false),
                     genreId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -42,6 +41,37 @@ namespace Ejercicio2.Migrations
                         principalTable: "Genre",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Genre",
+                columns: new[] { "Id", "Description", "Name" },
+                values: new object[] { 1, "Genero con violencia y sangre", "guerra" });
+
+            migrationBuilder.InsertData(
+                table: "Genre",
+                columns: new[] { "Id", "Description", "Name" },
+                values: new object[] { 2, "Genero con paisajes, varios mundos, mundo abierto.", "aventura" });
+
+            migrationBuilder.InsertData(
+                table: "Genre",
+                columns: new[] { "Id", "Description", "Name" },
+                values: new object[] { 3, "Genero en el cual tiene violencia, puede contener sangre.", "lucha" });
+
+            migrationBuilder.InsertData(
+                table: "Game",
+                columns: new[] { "Id", "Description", "Name", "genreId" },
+                values: new object[,]
+                {
+                    { 1, "Juego de guerra del futuro", "Terminator 1", 1 },
+                    { 2, "Juego de guerra del futuro", "Terminator 2", 1 },
+                    { 3, "Juego de guerra del futuro", "Terminator 3", 1 },
+                    { 4, "Juego de entretenimiento en varios mundo, el cual se lucha contra monstruos", "Super Mario Bross", 2 },
+                    { 5, "Juego de entretenimiento en varios mundo, el cual se lucha contra monstruos", "Super Mario Bross", 2 },
+                    { 6, "Juego de entretenimiento en varios mundo, el cual se lucha contra monstruos", "Super Mario Bross", 2 },
+                    { 7, "Juego de lucha", "Tekken 6", 3 },
+                    { 8, "Juego de lucha", "Tekken 7", 3 },
+                    { 9, "Juego de lucha", "Tekken 8", 3 }
                 });
 
             migrationBuilder.CreateIndex(

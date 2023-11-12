@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Ejercicio2.Data;
 using Ejercicio2.Models;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 namespace Ejercicio2.Controllers
 {
@@ -23,13 +25,22 @@ namespace Ejercicio2.Controllers
 
         // GET: api/Genres
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Genre>>> GetGenre()
+        public async Task<ActionResult<List<Genre>>> GetGenre()
         {
           if (_context.Genre == null)
           {
               return NotFound();
           }
-            return await _context.Genre.ToListAsync();
+            var options = new JsonSerializerOptions
+            {
+                MaxDepth = 6,
+                ReferenceHandler = ReferenceHandler.IgnoreCycles
+            };
+
+            var games=await _context.Genre.Include(juego => juego.Games).ToListAsync();
+
+            var json = JsonSerializer.Serialize(games, options);
+            return Content(json, "application/json");
         }
 
         // GET: api/Genres/5
@@ -86,14 +97,30 @@ namespace Ejercicio2.Controllers
         [HttpPost]
         public async Task<ActionResult<Genre>> PostGenre(Genre genre)
         {
-          if (_context.Genre == null)
-          {
-              return Problem("Entity set 'Ejercicio2Context.Genre'  is null.");
-          }
-            _context.Genre.Add(genre);
-            await _context.SaveChangesAsync();
+            if (ModelState.IsValid)
+            {
+                if (_context.Genre == null)
+                {
+                    return Problem("Entity set 'Ejercicio2Context.Genre'  is null.");
+                }
 
-            return CreatedAtAction("GetGenre", new { id = genre.Id }, genre);
+                List<Genre> lista = await _context.Genre.ToListAsync();
+
+
+                bool existeGenero = lista.Any(g => g.Id == genre.Id || g.Name == genre.Name);
+
+                if (existeGenero)
+                {
+                    return Conflict("El género ya existe.");
+                }
+                else
+                {
+                    _context.Genre.Add(genre);
+                    await _context.SaveChangesAsync();
+                    return CreatedAtAction("GetGenre", new { id = genre.Id }, genre);
+                }
+            }            
+            return BadRequest(ModelState);
         }
 
         // DELETE: api/Genres/5

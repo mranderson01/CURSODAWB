@@ -11479,19 +11479,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2dawb\\.nuget\\packages\\": {}
+    "C:\\Users\\rodrigo2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2dawb\\Desktop\\2DAWB\\dsw\\CURSODAWB\\DSW\\Unidad 3\\Ejercicio2\\Ejercicio2.csproj",
+      "projectUniqueName": "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 3\\Ejercicio2\\Ejercicio2.csproj",
       "projectName": "Ejercicio2",
-      "projectPath": "C:\\Users\\2dawb\\Desktop\\2DAWB\\dsw\\CURSODAWB\\DSW\\Unidad 3\\Ejercicio2\\Ejercicio2.csproj",
-      "packagesPath": "C:\\Users\\2dawb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2dawb\\Desktop\\2DAWB\\dsw\\CURSODAWB\\DSW\\Unidad 3\\Ejercicio2\\obj\\",
+      "projectPath": "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 3\\Ejercicio2\\Ejercicio2.csproj",
+      "packagesPath": "C:\\Users\\rodrigo2\\.nuget\\packages\\",
+      "outputPath": "D:\\Projectos\\CURSODAWB\\CURSODAWB\\DSW\\Unidad 3\\Ejercicio2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\2dawb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rodrigo2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11499,6 +11499,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11559,7 +11560,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

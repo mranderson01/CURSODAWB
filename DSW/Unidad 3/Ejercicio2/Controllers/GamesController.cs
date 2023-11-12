@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Ejercicio2.Data;
 using Ejercicio2.Models;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 namespace Ejercicio2.Controllers
 {
@@ -23,14 +25,24 @@ namespace Ejercicio2.Controllers
 
         // GET: api/Games
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Game>>> GetGame()
+        public async Task<ActionResult<List<Game>>> GetGame()
         {
-          if (_context.Game == null)
-          {
-              return NotFound();
-          }
-            return await _context.Game.ToListAsync();
+            if (_context.Game == null)
+            {
+                return NotFound();
+            }
+
+            var options = new JsonSerializerOptions
+            {
+                MaxDepth = 6,  
+                ReferenceHandler = ReferenceHandler.IgnoreCycles 
+            };
+
+            var games = await _context.Game.Include(g => g.genre).ToListAsync();
+            var json = JsonSerializer.Serialize(games, options); 
+            return Content(json, "application/json");
         }
+
 
         // GET: api/Games/5
         [HttpGet("{id}")]
@@ -55,30 +67,35 @@ namespace Ejercicio2.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGame(int id, Game game)
         {
-            if (id != game.Id)
+            if (ModelState.IsValid)
             {
-                return BadRequest();
-            }
-
-            _context.Entry(game).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!GameExists(id))
+                if (id != game.Id)
                 {
-                    return NotFound();
+                    return BadRequest();
                 }
-                else
-                {
-                    throw;
-                }
-            }
 
-            return NoContent();
+                _context.Entry(game).State = EntityState.Modified;
+
+                try
+                {
+
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!GameExists(id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
+                return NoContent();
+            }
+            return BadRequest();
         }
 
         // POST: api/Games
@@ -90,6 +107,8 @@ namespace Ejercicio2.Controllers
           {
               return Problem("Entity set 'Ejercicio2Context.Game'  is null.");
           }
+           
+
             _context.Game.Add(game);
             await _context.SaveChangesAsync();
 
