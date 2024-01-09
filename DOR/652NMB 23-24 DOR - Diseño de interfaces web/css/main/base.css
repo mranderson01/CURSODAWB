@@ -3,10 +3,39 @@
   padding: 0;
 }
 
+.backgroundNoche {
+  background-color: #140f0d;
+  color: #0e365c;
+  color: #0876ba;
+  color: #08c1ff;
+  color: #0ffff8;
+  color: white;
+}
+
+.cardNoche {
+  background-color: #b4b4b4;
+  color: #0e365c;
+}
+
+.h1Noche {
+  color: #0876ba;
+}
+
+.backgroundDia {
+  background-color: #00aeff;
+  color: white;
+}
+
+.nav_colorTexto {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
 body {
   display: grid;
   grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
-  grid-template-columns: 25 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 header {
@@ -24,6 +53,9 @@ main {
   padding-right: 5px;
   padding-bottom: 10px;
 }
+main p {
+  font-size: 1.6em;
+}
 
 .areas > h1 {
   text-align: center;
@@ -40,7 +72,7 @@ main {
 }
 
 .card {
-  height: 150px;
+  height: 270px;
   width: 100%;
   margin-right: 5px;
   border: 1px solid white;
@@ -50,14 +82,14 @@ main {
 }
 
 .card > img {
-  height: 100px;
-  width: 164px;
+  height: 80%;
+  width: 98%;
   margin-top: 5px;
   margin-bottom: 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  -o-object-position: center;
+     object-position: center;
 }
 
 #areaPublicacion > .contenedor {
@@ -75,50 +107,26 @@ footer {
   padding-bottom: 10px;
 }
 
-@media only screen and (min-width: 250px) {
+@media only screen and (min-width: 375px) {
   .card > img {
-    height: 100px;
-    width: 210px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-}
-@media only screen and (min-width: 300px) {
-  .card > img {
-    height: 100px;
-    width: 262px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-}
-@media only screen and (min-width: 350px) {
-  .card > img {
-    height: 100px;
-    width: 308px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 400px) {
   .card > img {
-    height: 114px;
-    width: 357px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 450px) {
   .card > img {
-    height: 114px;
-    width: 404px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 500px) {
   .card > img {
-    height: 114px;
-    width: 140px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -141,11 +149,27 @@ footer {
          column-gap: 20px;
   }
   .card {
+    width: 15%;
+  }
+  .card > img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .main {
+    overflow: hidden;
+  }
+  .contenedor {
+    margin-left: 5px;
+    margin-right: 0;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .card {
     width: 22%;
   }
   .card > img {
-    height: 114px;
-    width: 111px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -163,8 +187,6 @@ footer {
          column-gap: 20px;
   }
   .card > img {
-    height: 114px;
-    width: 163px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -175,8 +197,6 @@ footer {
          column-gap: 24px;
   }
   .card > img {
-    height: 114px;
-    width: 185px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -187,8 +207,6 @@ footer {
          column-gap: 28px;
   }
   .card > img {
-    height: 114px;
-    width: 203px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -199,8 +217,6 @@ footer {
          column-gap: 32px;
   }
   .card > img {
-    height: 114px;
-    width: 230px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -216,8 +232,6 @@ footer {
     width: 16%;
   }
   .card > img {
-    height: 114px;
-    width: 178px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -231,16 +245,12 @@ footer {
          column-gap: 1.5px;
   }
   .card > img {
-    height: 114px;
-    width: 195px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 1500px) {
   .card > img {
-    height: 114px;
-    width: 222px;
     margin-top: 5px;
     margin-bottom: 5px;
   }

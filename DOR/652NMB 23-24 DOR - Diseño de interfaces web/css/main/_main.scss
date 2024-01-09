@@ -2,21 +2,55 @@
     margin: 0;
     padding: 0;
 }
+//MODO NOCHE
+
+.backgroundNoche{
+    //modo noche
+    background-color: #140f0d;
+    color: #0e365c;
+    color: #0876ba;
+    color: #08c1ff;
+    color: #0ffff8; 
+    color: white;  
+}
+ 
+.cardNoche{
+    background-color: #b4b4b4;
+    color: #0e365c;
+}
+
+.h1Noche{
+    color: #0876ba;
+}
+//MODO DIA
+.backgroundDia{ 
+    //modo dia
+    background-color: #00aeff;
+    //color: #00aeff; //fondo
+    //color: #b49bff; //h1
+    //color: #ffa0ff; 
+    //color: #ffccea;  
+    color: white; //parrafo
+}
+.nav_colorTexto{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+}
  
 body{    
     display: grid;
     grid-template-areas:"header header header header"
                         "main main main main"
                         "footer footer footer footer";
-    grid-template-columns: 25 25% 25% 25%;     
+    grid-template-columns: 25% 25% 25% 25%;     
 }
 
 header{
     grid-area: header;
     background-color: rgb(0, 195, 255);
     height: 50px;
-    text-align: center;    
-
+    text-align: center;  
 }   
 
 main{   
@@ -25,7 +59,10 @@ main{
     overflow-y: scroll;
     padding-left: 5px;
     padding-right: 5px;        
-    padding-bottom: 10px;      
+    padding-bottom: 10px;    
+    p{
+        font-size: 1.6em;
+    }  
 }
 .areas>h1{
     text-align: center;
@@ -41,7 +78,7 @@ main{
 }
 
 .card{
-    height: 150px;
+    height: 270px;
     width: 100%;
     margin-right: 5px;
     border: 1px solid white;
@@ -50,18 +87,16 @@ main{
     align-items: center;
 }
 .card>img{
-    height: 100px;
-    width: 164px;
+    height: 80%;
+    width: 98%;
     margin-top: 5px;
     margin-bottom: 5px;
     object-fit: cover;
-    object-position: top;
-}
- 
+    object-position: center;
+} 
 #areaPublicacion>.contenedor{ 
     display: flex;
-    justify-content: center;
-     
+    justify-content: center; 
 } 
 
 footer{
@@ -72,54 +107,29 @@ footer{
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-@media only screen and (min-width: 250px) {
-    .card>img{
-        height: 100px;
-        width: 210px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-}
-
-@media only screen and (min-width: 300px) {
-    .card>img{
-        height: 100px;
-        width: 262px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-}
-@media only screen and (min-width: 350px) {
-    .card>img{
-        height: 100px;
-        width: 308px;
+} 
+@media only screen and (min-width: 375px) {
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
 }
 @media only screen and (min-width: 400px) {
-    .card>img{
-        height: 114px;
-        width: 357px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
 }
 
 @media only screen and (min-width: 450px) {
-    .card>img{
-        height: 114px;
-        width: 404px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
 }
 @media only screen and (min-width: 500px) {
 
-    .card>img{
-        height: 114px;
-        width: 140px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -143,16 +153,30 @@ footer{
         column-gap: 20px;
     }
     .card{
-        width: 22%; 
+        width: 15%; 
     }
-    .card>img{
-        height: 114px;
-        width: 111px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .main{
+        overflow:hidden;
+    }
+    .contenedor{
+        margin-left: 5px;
+        margin-right: 0; 
+        column-gap: 20px;
+    }
+    .card{
+        width: 22%; 
+    }
+    .card>img{ 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
 @media only screen and (min-width: 800px) {
     .contenedor{
         column-gap: 25px;
@@ -163,9 +187,7 @@ footer{
         margin-right: 0; 
         column-gap: 20px;
     }
-    .card>img{
-        height: 114px;
-        width: 163px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -174,9 +196,7 @@ footer{
     .contenedor{         
         column-gap: 24px;
     }
-    .card>img{
-        height: 114px;
-        width: 185px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -185,9 +205,7 @@ footer{
     .contenedor{         
         column-gap: 28px;
     }
-    .card>img{
-        height: 114px;
-        width: 203px; 
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -196,9 +214,7 @@ footer{
     .contenedor{         
         column-gap: 32px;
     }
-    .card>img{
-        height: 114px;
-        width: 230px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -214,9 +230,7 @@ footer{
         width: 16%;
     }     
 
-    .card>img{
-        height: 114px;
-        width: 178px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -228,9 +242,7 @@ footer{
     .contenedor{
         column-gap: 1.5px;
     }
-    .card>img{
-        height: 114px;
-        width: 195px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -239,27 +251,10 @@ footer{
      
 }
 @media only screen and (min-width: 1500px) {
-    .card>img{
-        height: 114px;
-        width: 222px;
+    .card>img{ 
         margin-top: 5px;
         margin-bottom: 5px;
     }
-}
-//@media only screen and (min-width: 1700px) {}
-//@media only screen and (min-width: 1800px) {}
-//@media only screen and (min-width: 1900px) {}
-
-//@media only screen and (min-width: 500px) {...}
-//@media only screen and (min-width: 600px) {...}
-//@media only screen and (min-width: 800px) {...}
-//@media only screen and (min-width: 950px) {...}
-//@media only screen and (min-width: 1200px) {...}
-//@media only screen and (min-width: 1400px) {...}
-//@media only screen and (min-width: 1500px) {...}
-//@media only screen and (min-width: 1700px) {...}
-//@media only screen and (min-width: 1800px) {...}
-//@media only screen and (min-width: 1900px) {...}
-
+} 
 /*object-fit: cover;
     object-position: center;*/
